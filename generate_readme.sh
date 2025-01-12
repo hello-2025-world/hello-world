@@ -12,7 +12,8 @@ readme_file="README.md"
 timestamp=$(date "+%Y-%m-%d %H:%M:%S")
 current_date=$(date "+%a %b %d %Y")
 
-date_message="Last pixel added $current_date."
+date_message="Last pixel added $current_date"
+date_message2="Last pixel added $current_date."
 # Create the date message file
 echo "\`\`\`" > "$date_file"
 echo "$date_message" >> "$date_file"
@@ -32,6 +33,22 @@ echo "$revision_message" >> "$revisions_file"
     cat "$revisions_file"
 } > "$readme_file"
 
+sleep 2
+bash ./commit.sh
+
+echo "\`\`\`" > "$date_file"
+echo "$date_message2" >> "$date_file"
+{
+    cat "$header_file"
+    cat "$matrix_file"
+    cat "$date_file"
+    cat "$footer_file"
+    cat "$revisions_file"
+} > "$readme_file"
+sleep 2
+bash ./commit.sh
+
 echo "README.md generated successfully."
 echo "Revision history updated: $revision_message"
+
 

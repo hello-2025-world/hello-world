@@ -115,8 +115,6 @@ echo "Start Date (First Sunday of the Year): $start_date"
 if [ "$local_message_char" == "@" ]; then
     echo "$timestamp Row: $current_row, Column: $current_col Commit: yes" >> $log_file
     bash ./generate_readme.sh
-    sleep 2
-    bash ./commit.sh
 else
     echo "$timestamp Row: $current_row, Column: $current_col Commit: no" >> $log_file
 fi

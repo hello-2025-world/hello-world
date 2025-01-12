@@ -2,7 +2,7 @@
 
 Sometimes, inspiration strikes when you least expect it. For me, it was while reminiscing about the good old days of programming on clunky dot-matrix printers and green-on-black terminal screens. Nostalgia is a powerful thing, and it led me to what can only be described as a gloriously pointless, yet undeniably fun, experiment: **The World's Truly Slowest HELLO WORLD Program.**
 
-This isn't just a slow program. It's slow by design, committing one dot at a time to a GitHub profile's contribution graph. A masterpiece in patience, and a humorous nod to the old-school programmer within me. To see this unfold, head over to **https://github.com/hello-2025?tab=overview&from=2025-01-01**
+This isn't just a slow program. It's slow by design, committing one dot at a time to a GitHub profile's contribution graph. A masterpiece in patience, and a humorous nod to the old-school programmer within me. To see this unfold, head over to **https://github.com/hello-2025-world?tab=overview&from=2025-01-01**
 
 Let me walk you through the core of this project, its components, and why it might just inspire you to embrace your own crazy idea.
 
