@@ -22,7 +22,7 @@ Enjoy the journey!
 .@@.@.@@@@.@@@@.@@@@.................................
 .@@.@....@....@....@@................................
 ```
-Last pixel added Thu Jun 05 2025
+Last pixel added Thu Jun 05 2025.
 
 ## License
 
